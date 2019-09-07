@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crudredux.github.io/precache-manifest.e24589480009941020eac9123b413607.js"
+  "/crudredux.github.io/precache-manifest.c8614a2cd64cad5437ae5fed04811f34.js"
 );
 
 self.addEventListener('message', (event) => {

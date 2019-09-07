@@ -6,11 +6,36 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap.css';
+import Header from './components/header/header';
+import Home from './components/home/home';
+import About from './components/about/about';
+import Contact from './components/contact/contact';
+import NotFound from './components/notfound/notfound';
+import { Route, Link,Switch, BrowserRouter as Router } from 'react-router-dom'
 
 
 import postReducer from './reducers/postReducer';
 const store = createStore(postReducer);
-ReactDOM.render(
-<Provider store={store}>
-<App />
-</Provider>, document.getElementById('root'));
+const routing = (
+    <Provider store={store}>
+    <Router>
+    {/* <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/users">Users</Link>
+        <Link to="/search?q=react">Search</Link> */}
+    <Switch>
+        <Route exact path="/" component={Header} />
+        {/* <Route path="/home" component={Home} /> */}
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/home" component={Home}/>
+        <Route  component={NotFound} />
+        
+</Switch>
+</Router>
+
+    </Provider>
+  )
+ReactDOM.render(routing,  document.getElementById('root'));
+
+//<Router routes={routing} />

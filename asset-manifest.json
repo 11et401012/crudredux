@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/crudredux/static/css/main.62a9c437.chunk.css",
-    "main.js": "/crudredux/static/js/main.fc73e0b8.chunk.js",
-    "main.js.map": "/crudredux/static/js/main.fc73e0b8.chunk.js.map",
-    "runtime~main.js": "/crudredux/static/js/runtime~main.1fcdb46e.js",
-    "runtime~main.js.map": "/crudredux/static/js/runtime~main.1fcdb46e.js.map",
-    "static/js/2.0fbdf460.chunk.js": "/crudredux/static/js/2.0fbdf460.chunk.js",
-    "static/js/2.0fbdf460.chunk.js.map": "/crudredux/static/js/2.0fbdf460.chunk.js.map",
-    "index.html": "/crudredux/index.html",
-    "precache-manifest.df0ec4316634537956eea3a48a95db31.js": "/crudredux/precache-manifest.df0ec4316634537956eea3a48a95db31.js",
-    "service-worker.js": "/crudredux/service-worker.js",
-    "static/css/main.62a9c437.chunk.css.map": "/crudredux/static/css/main.62a9c437.chunk.css.map"
+    "main.css": "/crudredux.github.io/static/css/main.62a9c437.chunk.css",
+    "main.js": "/crudredux.github.io/static/js/main.fc73e0b8.chunk.js",
+    "main.js.map": "/crudredux.github.io/static/js/main.fc73e0b8.chunk.js.map",
+    "runtime~main.js": "/crudredux.github.io/static/js/runtime~main.96ca902d.js",
+    "runtime~main.js.map": "/crudredux.github.io/static/js/runtime~main.96ca902d.js.map",
+    "static/js/2.0fbdf460.chunk.js": "/crudredux.github.io/static/js/2.0fbdf460.chunk.js",
+    "static/js/2.0fbdf460.chunk.js.map": "/crudredux.github.io/static/js/2.0fbdf460.chunk.js.map",
+    "index.html": "/crudredux.github.io/index.html",
+    "precache-manifest.e24589480009941020eac9123b413607.js": "/crudredux.github.io/precache-manifest.e24589480009941020eac9123b413607.js",
+    "service-worker.js": "/crudredux.github.io/service-worker.js",
+    "static/css/main.62a9c437.chunk.css.map": "/crudredux.github.io/static/css/main.62a9c437.chunk.css.map"
   }
 }

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Route,NavLink, Link,Switch } from 'react-router-dom'
+
 
 import {
   Collapse,
@@ -7,7 +9,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -36,10 +38,18 @@ import {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                {/* <NavLink> */}
+                    <NavLink to="/about">About</NavLink>
+                {/* </NavLink> */}
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink  to="/contact" >Contact</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink  to="/" >Home</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink  to="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>

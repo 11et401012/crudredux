@@ -8,7 +8,6 @@ import DataTable from './components/listPost/listPost';
 import ModalForm from './components/Modals/modalForm';
 
 
-
 class App extends Component {
   state = {
     items: []
@@ -41,6 +40,9 @@ class App extends Component {
   }
   render() {
     return (
+      // <Header/>
+      // <div></div>,
+
       <Container className="App">
       <Row>
         <Col>
@@ -57,7 +59,7 @@ class App extends Component {
           <ModalForm buttonLabel="Add Item" addItemToState={this.addItemToState}/>
         </Col>
       </Row>
-    </Container>
+      </Container>
     );
     }
   }

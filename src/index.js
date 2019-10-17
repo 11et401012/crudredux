@@ -23,8 +23,10 @@ const routing = (
         <Link to="/about">About</Link>
         <Link to="/users">Users</Link>
         <Link to="/search?q=react">Search</Link> */}
+        <div>
+            <Header/>
     <Switch>
-        <Route exact path="/" component={Header} />
+        <Route exact path="/" component={App} />
         {/* <Route path="/home" component={Home} /> */}
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/about" component={About} />
@@ -32,6 +34,7 @@ const routing = (
         <Route  component={NotFound} />
         
 </Switch>
+</div>
 </Router>
 
     </Provider>

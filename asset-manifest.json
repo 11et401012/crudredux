@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/crudredux.github.io/static/css/main.62a9c437.chunk.css",
-    "main.js": "/crudredux.github.io/static/js/main.87ac539c.chunk.js",
-    "main.js.map": "/crudredux.github.io/static/js/main.87ac539c.chunk.js.map",
+    "main.js": "/crudredux.github.io/static/js/main.c286753e.chunk.js",
+    "main.js.map": "/crudredux.github.io/static/js/main.c286753e.chunk.js.map",
     "runtime~main.js": "/crudredux.github.io/static/js/runtime~main.96ca902d.js",
     "runtime~main.js.map": "/crudredux.github.io/static/js/runtime~main.96ca902d.js.map",
-    "static/css/2.d9a3577d.chunk.css": "/crudredux.github.io/static/css/2.d9a3577d.chunk.css",
-    "static/js/2.84d1513f.chunk.js": "/crudredux.github.io/static/js/2.84d1513f.chunk.js",
-    "static/js/2.84d1513f.chunk.js.map": "/crudredux.github.io/static/js/2.84d1513f.chunk.js.map",
+    "static/css/2.9798096d.chunk.css": "/crudredux.github.io/static/css/2.9798096d.chunk.css",
+    "static/js/2.0c514829.chunk.js": "/crudredux.github.io/static/js/2.0c514829.chunk.js",
+    "static/js/2.0c514829.chunk.js.map": "/crudredux.github.io/static/js/2.0c514829.chunk.js.map",
     "index.html": "/crudredux.github.io/index.html",
-    "precache-manifest.c8614a2cd64cad5437ae5fed04811f34.js": "/crudredux.github.io/precache-manifest.c8614a2cd64cad5437ae5fed04811f34.js",
+    "precache-manifest.8ba36678d63953fd49bc373c7b82a52c.js": "/crudredux.github.io/precache-manifest.8ba36678d63953fd49bc373c7b82a52c.js",
     "service-worker.js": "/crudredux.github.io/service-worker.js",
-    "static/css/2.d9a3577d.chunk.css.map": "/crudredux.github.io/static/css/2.d9a3577d.chunk.css.map",
+    "static/css/2.9798096d.chunk.css.map": "/crudredux.github.io/static/css/2.9798096d.chunk.css.map",
     "static/css/main.62a9c437.chunk.css.map": "/crudredux.github.io/static/css/main.62a9c437.chunk.css.map"
   }
 }

@@ -2,7 +2,7 @@
   "name": "crud-redux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://11et401012.github.io/crudredux.github.io",
+  "homepage": "https://11et401012.github.io/crudredux",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",

@@ -36,7 +36,9 @@ import ModalForm from '../Modals/modalForm'
 class DataTable extends Component {
 
   render() {
-
+    // const mystyle = {
+    //   padding-left:
+    // };
     const items = this.props.items.map(item => {
       return (
         <tr key={item.id}>
@@ -48,9 +50,10 @@ class DataTable extends Component {
           <td>{item.location}</td>
           <td>{item.hobby}</td>
           <td>
-            <div style={{width:"110px",float:"right"}}>
+            <div style={{paddingLeft:"4px",float:"right"}}>
               <ModalForm buttonLabel="Edit" item={item} updateState={this.props.updateState}/>
-              {' '}
+              </div>
+              <div style={{float:"right"}}>
               <Button color="danger" onClick={() => this.deleteItem(item.id)}>Del</Button>
             </div>
           </td>

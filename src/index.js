@@ -11,7 +11,7 @@ import Home from './components/home/home';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 import NotFound from './components/notfound/notfound';
-import { Route, Link,Switch, BrowserRouter as Router } from 'react-router-dom'
+import { Route,Switch, BrowserRouter as Router } from 'react-router-dom'
 
 
 import postReducer from './reducers/postReducer';

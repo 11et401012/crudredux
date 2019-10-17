@@ -75,33 +75,66 @@ class AddEditForm extends React.Component {
 //   }
 
   submitFormEdit = e => {
-    e.preventDefault()
-    fetch('http://localhost:3000/crud', {
-      method: 'put',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        id: this.state.id,
-        first: this.state.first,
-        last: this.state.last,
-        email: this.state.email,
-        phone: this.state.phone,
-        location: this.state.location,
-        hobby: this.state.hobby
-      })
-    })
-      .then(response => response.json())
-      .then(item => {
-        if(Array.isArray(item)) {
-          // console.log(item[0])
-          this.props.updateState(item[0])
-          this.props.toggle()
-        } else {
-          console.log('failure')
-        }
-      })
-      .catch(err => console.log(err))
+    e.preventDefault();
+    const id = this.state.id;
+    const first= this.state.first;
+    const last = this.state.last;
+    const email=this.state.email ;
+    const phone = this.state.phone;
+    const location= this.state.location;
+    const hobby=this.state.hobby ;
+    const edata = {
+      id,
+      first,
+      
+      last,
+      email,
+      phone,
+      location,
+      hobby
+    }
+    console.log({edata})
+    this.props.dispatch({
+      type:'UPDATE',
+      edata});
+    // this.props.updateState({
+    //   id: this.state.id,
+    //   first: this.state.first,
+    //   last: this.state.last,
+    //   email: this.state.email,
+    //   phone: this.state.phone,
+    //   location: this.state.location,
+    //   hobby: this.state.hobby
+
+    // })
+    // this.props.toggle()
+    // e.preventDefault()
+    // fetch('http://localhost:3000/crud', {
+    //   method: 'put',
+    //   headers: {
+    //     'Content-Type': 'application/json'
+    //   },
+    //   body: JSON.stringify({
+    //     id: this.state.id,
+    //     first: this.state.first,
+    //     last: this.state.last,
+    //     email: this.state.email,
+    //     phone: this.state.phone,
+    //     location: this.state.location,
+    //     hobby: this.state.hobby
+    //   })
+    // })
+    //   .then(response => response.json())
+    //   .then(item => {
+    //     if(Array.isArray(item)) {
+    //       // console.log(item[0])
+    //       this.props.updateState(item[0])
+    //       this.props.toggle()
+    //     } else {
+    //       console.log('failure')
+    //     }
+    //   })
+    //   .catch(err => console.log(err))
   }
 
   componentDidMount(){

@@ -13,12 +13,17 @@ const postReducer = (state = [], action) => {
       );
     case "UPDATE":
       return state.map(post => {
-        if (post.id === action.id) {
+        console.log(action.edata)
+        if (post.id === action.edata.id) {
           return {
             ...post,
-            title: action.data.newTitle,
-            message: action.data.newMessage,
-            editing: !post.editing
+            email: action.edata.email,
+          first: action.edata.first,
+          hobby: action.edata.hobby,
+          last: action.edata.last,
+          location: action.edata.location,
+          phone: action.edata.phone
+
           };
         } else return post;
       });
